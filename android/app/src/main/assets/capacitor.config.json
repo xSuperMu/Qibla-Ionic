@@ -1,0 +1,14 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "qibla-esnaad",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {},
+  "linuxAndroidStudioPath": "/home/xsupermu/android-studio/bin/studio.sh"
+}

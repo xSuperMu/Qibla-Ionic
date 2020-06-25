@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="dark">
     <ion-title>
-      Blank
+      Qibla
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,12 +9,20 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+      <ion-title size="large">Qibla</ion-title>
     </ion-toolbar>
   </ion-header>
 
   <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <!--p>{{(!!data ? data.magneticHeading : 0)}}°</!p-->
+    <!--img src="assets/qibla_compass.png" width="200em" [ngStyle]="{'transform': 'rotate('+(!!data ? data.magneticHeading*-1 : 0)+'deg)'}"-->
+    <img src="assets/qibla_compass.png" height="320em" width="320em" [ngStyle]="{'transform': 'rotate('+(qiblaLocation*-1)+'deg)'}">
+    <!--p>Current Location<br>{{!!currentLocation ? "["+currentLocation.coords.latitude+","+currentLocation.coords.longitude+"]" : 'Not Allowed'}}</p-->
+    <br/><br/><br/><br/>
+    <h3 >Muhammad A. Hafez</h3>
+    <h4>ESNAAD selection task</h4>
+    <h6>Ionic</h6>
+  
   </div>
+
 </ion-content>

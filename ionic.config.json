@@ -1,5 +1,7 @@
 {
   "name": "qibla-esnaad",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }
