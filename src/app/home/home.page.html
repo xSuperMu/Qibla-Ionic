@@ -14,10 +14,7 @@
   </ion-header>
 
   <div id="container">
-    <!--p>{{(!!data ? data.magneticHeading : 0)}}°</!p-->
-    <!--img src="assets/qibla_compass.png" width="200em" [ngStyle]="{'transform': 'rotate('+(!!data ? data.magneticHeading*-1 : 0)+'deg)'}"-->
     <img src="assets/qibla_compass.png" height="320em" width="320em" [ngStyle]="{'transform': 'rotate('+(qiblaLocation*-1)+'deg)'}">
-    <!--p>Current Location<br>{{!!currentLocation ? "["+currentLocation.coords.latitude+","+currentLocation.coords.longitude+"]" : 'Not Allowed'}}</p-->
     <br/><br/><br/><br/>
     <h3 >Muhammad A. Hafez</h3>
     <h4>ESNAAD selection task</h4>
